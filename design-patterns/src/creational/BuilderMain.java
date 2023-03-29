@@ -9,8 +9,7 @@ public class BuilderMain {
 		for (int i = 3; i < pts.length(); i+=3) {
 			sb.insert((pts.length() - i), ",");
 		}
-		System.out.println(sb.toString());
-		return "";
+		return sb.toString();
 	}
 	
 	public static void main(String[] args) {
